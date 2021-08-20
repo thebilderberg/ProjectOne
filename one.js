@@ -2,7 +2,8 @@ function buttonClick(){
   let text = selectText();
   console.log(text);
   if (text === 'Hello') {
-    alert('Hello');
+    let inputName = prompt('Как тебя зовут?')
+    alert(`Привет, ${inputName}!`);
   }
   else if (text === 'xxx') {
     alert(`
