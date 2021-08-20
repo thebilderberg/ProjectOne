@@ -1,7 +1,5 @@
 header {
   background-color: #010911;
-  font-family: matura mt script capitals;
-  color: #fffffe;
   width: 100%;
   height: 100px;
   position: fixed;
@@ -10,6 +8,15 @@ header {
   overflow: auto;
 }
 
+.textHeader {
+  font-family: matura mt script capitals;
+  color: #ebf5ec;
+}
+
+.textHeader:hover {
+  color: #812a0c;
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  }
 
 .indent {
   height: 90px;
