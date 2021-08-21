@@ -16,7 +16,7 @@ header {
 }
 
 .textHeader:hover {
-  color: #1f8826;
+  color: #1c49bb;
   -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
 
   }
@@ -37,6 +37,9 @@ header {
   padding: 10px 15px 22px 18px;
 }
 
+.inviser {
+  padding: 20px;
+}
 
 .textReturn {
   height: 97px;
@@ -67,7 +70,7 @@ footer {
 
 
 .java:hover {
-  background-color: #1f8826;
+  background-color: #1c49bb;
   -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
-  color: #f4f2f5;
+  color: #fefeff;
 }
