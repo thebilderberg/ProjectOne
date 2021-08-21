@@ -9,16 +9,19 @@ header {
 }
 
 .textHeader {
-  font-family: matura mt script capitals;
+  font-family: IMPACT;
   color: #ebf5ec;
+  padding: 0px 20px;
 }
 
 .textHeader:hover {
-  color: #10dee7;
-  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  color: #1f8826;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+
   }
 
 .indent {
+  background-color: #6f6f6f;
   height: 90px;
   overflow: auto;
 }
@@ -29,14 +32,15 @@ header {
   height: 1000px;
   width: 80%;
   margin: 0 auto;
-  overflow: auto;
   text-align: center;
+  padding: 10px 15px 22px 18px;
 }
 
 
 .textReturn {
   height: 97px;
   width: 300px;
+  border-radius: 10px;
 }
 
 
@@ -47,17 +51,21 @@ footer {
   height: 100px;
   margin: 0;
   overflow: auto;
+  padding: 0px 20px;
 }
 
 
 .java{
+  background-color: #e7eef0;
   width: 100px;
   height: 100px;
   font-family: Verdana;
+  border-radius: 10px;
 }
 
 
 .java:hover {
-  background-color: #10dee7;
-  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  background-color: #1f8826;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+  color: #f4f2f5;
 }
