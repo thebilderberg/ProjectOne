@@ -29,7 +29,7 @@ header {
 
 
 .cunteiner {
-  background-color: #6f6f6f;
+  background-color: #ccc9c9;
   height: 1000px;
   width: 80%;
   margin: 0 auto;
@@ -39,6 +39,17 @@ header {
 
 .inviser {
   padding: 20px;
+}
+
+.twoButton {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.twoButton:hover {
+  background-color: #85a2ec;
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  color: #fefeff;
 }
 
 .textReturn {

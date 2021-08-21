@@ -34,12 +34,12 @@ function clearInput() {
 
 
 
-let twoButton = document.querySelector('.twoButton');
 let dostoevsky = document.querySelector('.dostoevsky');
 dostoevsky.hidden = true;
 
-twoButton.addEventListener('click', showText);
 
+let twoButton = document.querySelector('.twoButton');
+twoButton.addEventListener('click', showText);
 
 
 function showText() {
