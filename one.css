@@ -12,6 +12,7 @@ header {
   font-family: IMPACT;
   color: #ebf5ec;
   padding: 0px 20px;
+  text-decoration: none;
 }
 
 .textHeader:hover {
@@ -49,6 +50,7 @@ footer {
   font-family: sans-serif;
   color: #f0f3fa;
   height: 100px;
+  width: 100%;
   margin: 0;
   overflow: auto;
   padding: 0px 20px;
