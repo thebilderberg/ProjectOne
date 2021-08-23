@@ -8,18 +8,26 @@ header {
   overflow: auto;
 }
 
+
+body {
+  margin: 0;
+}
+
+
 .textHeader {
   font-family: IMPACT;
   color: #ebf5ec;
-  padding: 0px 20px;
+  padding: 0px 10px;
   text-decoration: none;
 }
+
 
 .textHeader:hover {
   color: #1c49bb;
   -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
 
   }
+
 
 .indent {
   background-color: #6f6f6f;
@@ -34,23 +42,27 @@ header {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding: 10px 15px 22px 18px;
-}
-
-.inviser {
   padding: 20px;
 }
+
+
+.inviser {
+  padding: 10px;
+}
+
 
 .twoButton {
   width: 100px;
   border-radius: 10px;
 }
 
+
 .twoButton:hover {
   background-color: #85a2ec;
   -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
   color: #fefeff;
 }
+
 
 .textReturn {
   height: 97px;
@@ -67,7 +79,7 @@ footer {
   width: 100%;
   margin: 0;
   overflow: auto;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 

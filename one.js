@@ -1,3 +1,11 @@
+"use strict";
+
+document.cookie = 'WaAwsde_03849_Rl05';
+console.log(document.cookie);
+console.log(localStorage);
+
+
+
 function buttonClick() {
   let text = selectText();
   console.log(text);
