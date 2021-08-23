@@ -29,13 +29,6 @@ body {
   }
 
 
-.indent {
-  background-color: #6f6f6f;
-  /* height: 90px; */
-  overflow: auto;
-}
-
-
 .cunteiner {
   background-color: #ccc9c9;
   height: 1000px;
