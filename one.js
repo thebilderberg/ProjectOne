@@ -5,6 +5,13 @@ console.log(document.cookie);
 console.log(localStorage);
 
 
+let infoUser = '{ "name": "Kail", "age": "3000", "status": "stealth"}';
+infoUser = JSON.parse(infoUser);
+console.log(infoUser);
+
+// let user = '{ "name": "John", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
+// user = JSON.parse(user);
+
 
 function buttonClick() {
   let text = selectText();
