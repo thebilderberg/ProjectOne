@@ -74,3 +74,15 @@ function hideText() {
   twoButton.removeEventListener('click', hideText);
   twoButton.addEventListener('click', showText);
 }
+
+function homeLinkColors (){
+  let linkColor = document.querySelector('.homeLink');
+  linkColor.addEventListener('mousemove', (event)=>{
+    linkColor.style.cssText = `background-color: #e16b6b;`;
+  });
+  linkColor.addEventListener('mouseout', (event)=>{
+    linkColor.style.cssText = ``;
+  });
+}
+
+homeLinkColors();

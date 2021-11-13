@@ -1,3 +1,9 @@
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: #010911;
   width: 100%;
@@ -6,6 +12,15 @@ header {
   left: 0;
   top: 0;
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.linkHeader {
+  padding: 30px;
+  bottom: 30px;
+  text-decoration: none;
+  color: #e7eef0;
+  font-size: larger;
 }
 
 
@@ -18,7 +33,6 @@ body {
   font-family: IMPACT;
   color: #ebf5ec;
   padding: 0px 10px;
-  text-decoration: none;
 }
 
 
@@ -31,13 +45,11 @@ body {
 
 .cunteiner {
   background-color: #ccc9c9;
-  height: 600px;
   width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 110px;
 }
-
 
 .inviser {
   padding: 10px;
@@ -64,6 +76,24 @@ body {
 }
 
 
+.homeLink {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #b61313;
+  position: fixed;
+  left: 90%;
+  top: 550px;
+  text-align: center;
+}
+.homeLinkID {
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: #e7eef0;
+}
+
 footer {
   background-color: #010d01;
   font-family: sans-serif;
@@ -87,6 +117,7 @@ footer {
 
 .java:hover {
   background-color: #1c49bb;
+  color: #010d01;
   -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
   color: #fefeff;
 }
